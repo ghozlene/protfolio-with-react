@@ -3,6 +3,7 @@ import './Header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.png';
 import HeaderSocial from './HeaderSocial';
+import { useState } from 'react';
 const Header = () => {
 	return (
 		<header>
