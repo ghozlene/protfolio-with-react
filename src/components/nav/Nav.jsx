@@ -7,13 +7,13 @@ import { MdEmail } from 'react-icons/md';
 import './Nav.css';
 import { useState } from 'react';
 const Nav = () => {
-	const [activeNow, setActiveNow] = useState('#');
+	const [activeNow, setActiveNow] = useState('#home');
 	return (
 		<nav>
 			<a
-				href='#'
-				onClick={() => setActiveNow(() => '#')}
-				className={activeNow === '#' ? 'active' : ''}>
+				href='#home'
+				onClick={() => setActiveNow(() => '#home')}
+				className={activeNow === '#home' ? 'active' : ''}>
 				<AiTwotoneHome />
 			</a>
 			<a
