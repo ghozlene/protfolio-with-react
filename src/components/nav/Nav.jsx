@@ -4,7 +4,7 @@ import { BsFillPersonFill } from 'react-icons/bs';
 import { MdWork } from 'react-icons/md';
 import { RiServiceFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
-import './Nav.css';
+import './Nav.scss';
 import { useState } from 'react';
 const Nav = () => {
 	const [activeNow, setActiveNow] = useState('#home');

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Testimonial.css';
+import './Testimonial.scss';
 import data from './testimonial-data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-coverflow';

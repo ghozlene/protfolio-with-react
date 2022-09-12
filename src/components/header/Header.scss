@@ -9,7 +9,9 @@ header {
 	height: 100%;
 	position: relative;
 }
+
 /*******FOR CTA*****/
+
 .cta {
 	margin: 2.5rem;
 	display: flex;
@@ -27,16 +29,17 @@ header {
 	position: absolute;
 	left: 0;
 	bottom: 3rem;
-}
 
-.header__socials::after {
-	content: '';
-	width: 1px;
-	height: 2rem;
-	background-color: var(--color-primary);
+	&::after {
+		content: '';
+		width: 1px;
+		height: 2rem;
+		background-color: var(--color-primary);
+	}
 }
 
 /********IMAGE********/
+
 .me {
 	background: linear-gradient(var(--color-primary), transparent);
 	width: 22rem;
@@ -70,6 +73,7 @@ header {
 	header {
 		height: 130vh;
 	}
+
 	.header__socials,
 	.scroll__down {
 		display: none;

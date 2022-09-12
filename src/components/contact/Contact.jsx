@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import './Contact.css';
+import './Contact.scss';
 import { MdEmail } from 'react-icons/md';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import { BsWhatsapp } from 'react-icons/bs';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import './Services.scss';
 import { BsCheck2Circle } from 'react-icons/bs';
 const Services = () => {
 	return (

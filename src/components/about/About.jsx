@@ -1,6 +1,6 @@
 import React from 'react';
 import ME from '../../assets/me-about.jpg';
-import './About.css';
+import './About.scss';
 import { BsAwardFill } from 'react-icons/bs';
 import { HiUsers } from 'react-icons/hi';
 import { HiLibrary } from 'react-icons/hi';

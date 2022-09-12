@@ -1,5 +1,5 @@
 import React from 'react';
-import './Portfolio.css';
+import './Portfolio.scss';
 import data from './data';
 
 const Portfolio = () => {

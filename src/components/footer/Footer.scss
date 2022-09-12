@@ -5,10 +5,10 @@ footer {
 	font-size: 0.9rem;
 	margin-top: 7rem;
 	height: 24rem;
-}
 
-footer a {
-	color: var(--color-bg);
+	a {
+		color: var(--color-bg);
+	}
 }
 
 .footer__logo {
@@ -28,23 +28,24 @@ footer a {
 
 .footer__socials {
 	display: flex;
-
 	justify-content: center;
 	gap: 1.5rem;
 	margin-bottom: 4rem;
-}
-.footer__socials a {
-	background: var(--color-bg);
-	color: var(--color-white);
-	padding: 0.8rem;
-	border-radius: 0.7rem;
-	display: flex;
-	border: 1px solid transparent;
-}
-.footer__socials a:hover {
-	background: transparent;
-	color: var(--color-bg);
-	border-color: var(--color-bg);
+
+	a {
+		background: var(--color-bg);
+		color: var(--color-white);
+		padding: 0.8rem;
+		border-radius: 0.7rem;
+		display: flex;
+		border: 1px solid transparent;
+
+		&:hover {
+			background: transparent;
+			color: var(--color-bg);
+			border-color: var(--color-bg);
+		}
+	}
 }
 
 .footer__copyRight {
@@ -60,6 +61,7 @@ footer a {
 		flex-direction: column;
 		gap: 1.4rem;
 	}
+
 	.footer__socials {
 		margin-bottom: 2.6rem;
 	}
