@@ -1,4 +1,4 @@
-.container .container__testimonials {
+.container.container__testimonials {
 	width: 40%;
 	height: 40%;
 	transition: var(--transition);
